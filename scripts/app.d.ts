@@ -1,4 +1,4 @@
-/// <reference path="react-d3.d.ts" />
+/// <reference path="../../../Pokusy/rmReactD3/scripts/react-d3.d.ts" />
 declare class Graf extends React.Component<{}, {}> {
     render(): JSX.Element;
 }

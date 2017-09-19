@@ -22,16 +22,15 @@ class Graf extends React.Component<{}, {}> {
                 return d.index;
             }
 
-        return <h1>Ahoj</h1>;
-        //    <LineChart
-        //    margins={margins}
-        //    title={title}
-        //    data={getData()}
-        //    width={width}
-        //    height={height}
-        //    chartSeries={chartSeries}
-        //    x={x}
-        ///>
+        return <LineChart
+            margins={margins}
+            title={title}
+            data={getData()}
+            width={width}
+            height={height}
+            chartSeries={chartSeries}
+            x={x}
+        />
     }
 }
 

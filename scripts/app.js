@@ -31,16 +31,7 @@ var Graf = (function (_super) {
         x = function (d) {
             return d.index;
         };
-        return React.createElement("h1", null, "Ahoj");
-        //    <LineChart
-        //    margins={margins}
-        //    title={title}
-        //    data={getData()}
-        //    width={width}
-        //    height={height}
-        //    chartSeries={chartSeries}
-        //    x={x}
-        ///>
+        return React.createElement(LineChart, { margins: margins, title: title, data: getData(), width: width, height: height, chartSeries: chartSeries, x: x });
     };
     return Graf;
 }(React.Component));
