@@ -1,25 +1,30 @@
-﻿
-interface ChartProps {
-    title: any;
-    width: any;
-    height: any;
-    margins: any;
-}
+﻿/// <reference path="react-global.d.ts" />
 
-declare class Chart extends React.Component<ChartProps, {}> {
+declare namespace ReactD3 {
 
-}
+    interface ChartProps {
+        title: any;
+        width: any;
+        height: any;
+        margins: any;
+    }
 
-interface LineChartProps {
-    margins: any;
-    title: string;
-    data: any[];
-    width: number;
-    height: number;
-    chartSeries: any;
-    x(any): void;
-}
+    class Chart extends React.Component<ChartProps, {}> {
 
-declare class LineChart extends React.Component<LineChartProps, {}> {
+    }
+
+    interface LineChartProps {
+        margins: any;
+        title: string;
+        data: any[];
+        width: number;
+        height: number;
+        chartSeries: any;
+        x(any): void;
+    }
+
+    class LineChart extends React.Component<LineChartProps, {}> {
+
+    }
 
 }

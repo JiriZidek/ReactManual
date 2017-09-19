@@ -29786,3 +29786,6 @@ exports.default = PieChart;
 
 /***/ })
 /******/ ]);
+
+
+var ReactD3 = window["react-d3"];
