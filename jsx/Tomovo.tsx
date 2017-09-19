@@ -1,5 +1,4 @@
 ﻿/// <reference path="../scripts/react-global.d.ts" />
-/// <reference path="../scripts/require.d.ts" />
 
 class Graf extends React.Component<{}, {}> {
 
