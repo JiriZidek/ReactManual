@@ -27,7 +27,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
     <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -212,6 +212,7 @@
     <Content Include="scripts\react-dom.min.js" />
     <Content Include="scripts\react.js" />
     <Content Include="scripts\react.min.js" />
+    <Content Include="ToDoList.html" />
     <Content Include="SinglePageApp.html" />
     <Content Include="Web.config" />
     <Content Include="scripts\jquery-3.1.1.slim.min.map" />
@@ -234,6 +235,7 @@
   <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="jsx\Render.tsx" />
+    <TypeScriptCompile Include="jsx\ToDoList.tsx" />
     <TypeScriptCompile Include="scripts\react-d3.d.ts" />
     <TypeScriptCompile Include="jsx\Tomovo.tsx" />
     <TypeScriptCompile Include="scripts\jquery.d.ts" />
@@ -257,7 +259,8 @@
     <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
     <TypeScriptModuleKind>None</TypeScriptModuleKind>
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
-    <TypeScriptOutFile>scripts\app.js</TypeScriptOutFile>
+    <TypeScriptOutFile>
+    </TypeScriptOutFile>
     <TypeScriptOutDir />
     <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
     <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
